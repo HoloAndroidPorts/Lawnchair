@@ -14,7 +14,7 @@ android {
     }
     defaultConfig {
         applicationId "ch.deletescape.lawnchair.lawnfeed"
-        minSdkVersion 21
+        minSdkVersion 19
         targetSdkVersion 27
 
         if (System.getenv("TRAVIS") == "true") {
